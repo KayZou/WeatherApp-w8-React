@@ -1,0 +1,57 @@
+/* WeatherCard.css */
+
+.weather-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05); /* Add a scale-up animation on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .weather-card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather-card-description {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .weather-card-details {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  /* Additional styles for individual forecast cards */
+  .weather-card-1 {
+    background-color: #ffefc6; /* Background color for card 1 */
+  }
+  
+  .weather-card-2 {
+    background-color: #c9ffd8; /* Background color for card 2 */
+  }
+  
+  .weather-card-3 {
+    background-color: #f7d3ea; /* Background color for card 3 */
+  }
+  
+  .weather-card-4 {
+    background-color: #d6e7f7; /* Background color for card 4 */
+  }
+  
+  .weather-card-5 {
+    background-color: #f0dfe5; /* Background color for card 5 */
+  }
+  
+  /* Add more styles for additional cards as needed */
+  
